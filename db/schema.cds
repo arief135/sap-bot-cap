@@ -7,8 +7,8 @@ namespace id.apnv.sapbot;
 
 entity Bot : managed {
     key ID         : Integer;
-        name       : localized String(111);
-        descr      : localized String(1111);
+        name       : String;
+        descr      : String;
         telegramID : String
 }
 
@@ -16,8 +16,7 @@ entity SAPProperties : cuid {
     ipAddress : String;
     client    : String;
     router    : String;
-    sid       : String;
-    user      : String;
+    userId      : String;
     password  : String;
 }
 
