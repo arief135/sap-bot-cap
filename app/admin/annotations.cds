@@ -8,17 +8,17 @@ annotate service.Bot with @(UI.LineItem: [
     },
     {
         $Type: 'UI.DataField',
-        Label: 'name',
+        Label: 'Name',
         Value: name,
     },
     {
         $Type: 'UI.DataField',
-        Label: 'descr',
+        Label: 'Description',
         Value: descr,
     },
     {
         $Type: 'UI.DataField',
-        Label: 'telegramID',
+        Label: 'Telegram ID',
         Value: telegramID,
     },
 ]);
@@ -34,17 +34,17 @@ annotate service.Bot with @(
             },
             {
                 $Type: 'UI.DataField',
-                Label: 'name',
+                Label: 'Name',
                 Value: name,
             },
             {
                 $Type: 'UI.DataField',
-                Label: 'descr',
+                Label: 'Description',
                 Value: descr,
             },
             {
                 $Type: 'UI.DataField',
-                Label: 'telegramID',
+                Label: 'Telegram ID',
                 Value: telegramID,
             },
         ],
