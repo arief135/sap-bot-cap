@@ -1,7 +1,7 @@
 {
   "_version": "1.59.0",
   "sap.app": {
-    "id": "id.apnv.sapbot.admin",
+    "id": "admin",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.12.1",
-      "toolsId": "52ff6f47-775d-4daa-84ab-37d65e1fc394"
+      "toolsId": "500c4d00-c4c2-40e6-b08c-c2bd82573858"
     },
     "dataSources": {
       "mainService": {
@@ -46,7 +46,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.120.3",
+      "minUI5Version": "1.120.4",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
@@ -62,7 +62,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "id.apnv.sapbot.admin.i18n.i18n"
+          "bundleName": "admin.i18n.i18n"
         }
       },
       "": {

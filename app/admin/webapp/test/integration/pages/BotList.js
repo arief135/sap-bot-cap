@@ -8,7 +8,7 @@ sap.ui.define(['sap/fe/test/ListReport'], function(ListReport) {
 
     return new ListReport(
         {
-            appId: 'id.apnv.sapbot.admin',
+            appId: 'admin',
             componentId: 'BotList',
             contextPath: '/Bot'
         },

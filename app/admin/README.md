@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Thu Jan 04 2024 15:18:42 GMT+0700 (Western Indonesia Time)|
+|**Generation Date and Time**<br>Thu Jan 04 2024 21:13:12 GMT+0700 (Western Indonesia Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.12.1|
 |**Generation Platform**<br>Visual Studio Code|
@@ -10,11 +10,11 @@
 |**Service URL**<br>http://localhost:4004/odata/v4/bot/
 |**Module Name**<br>admin|
 |**Application Title**<br>App Title|
-|**Namespace**<br>id.apnv.sapbot|
+|**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.120.3|
+|**UI5 Version**<br>1.120.4|
 |**Enable Code Assist Libraries**<br>False|
-|**Enable TypeScript**<br>False|
+|**Enable TypeScript**<br>True|
 |**Add Eslint configuration**<br>False|
 |**Main Entity**<br>Bot|
 
@@ -26,7 +26,7 @@ A Fiori application.
 
 -   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply start your CAP project and navigate to the following location in your browser:
 
-http://localhost:4004/admin/webapp/index.html
+http://localhost:4004/admin/index.html
 
 #### Pre-requisites:
 

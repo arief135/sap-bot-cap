@@ -8,7 +8,7 @@ sap.ui.define(['sap/fe/test/ObjectPage'], function(ObjectPage) {
 
     return new ObjectPage(
         {
-            appId: 'id.apnv.sapbot.admin',
+            appId: 'admin',
             componentId: 'BotObjectPage',
             contextPath: '/Bot'
         },

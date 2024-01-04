@@ -1,15 +1,15 @@
 sap.ui.require(
     [
         'sap/fe/test/JourneyRunner',
-        'id/apnv/sapbot/admin/test/integration/FirstJourney',
-		'id/apnv/sapbot/admin/test/integration/pages/BotList',
-		'id/apnv/sapbot/admin/test/integration/pages/BotObjectPage'
+        'admin/test/integration/FirstJourney',
+		'admin/test/integration/pages/BotList',
+		'admin/test/integration/pages/BotObjectPage'
     ],
     function(JourneyRunner, opaJourney, BotList, BotObjectPage) {
         'use strict';
         var JourneyRunner = new JourneyRunner({
             // start index.html in web folder
-            launchUrl: sap.ui.require.toUrl('id/apnv/sapbot/admin') + '/index.html'
+            launchUrl: sap.ui.require.toUrl('admin') + '/index.html'
         });
 
        
